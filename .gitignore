@@ -33,6 +33,7 @@
 
 # Visual Studio cache directory
 .vs/
+.vscode/
 
 # Gradle cache directory
 .gradle/
@@ -97,3 +98,39 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Build artifacts
+*.o
+*.exe
+*.dll
+*.class
+*.pyc
+target/
+build/
+dist/
+
+# Log files
+*.log
+logs/
+
+# Temporary files
+*.tmp
+temp/
+
+# Dependency directories
+node_modules/
+vendor/
+venv/
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system-specific files
+.DS_Store
+Thumbs.db
+
+# Sensitive information (example)
+*.env
