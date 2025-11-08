@@ -134,3 +134,5 @@ Thumbs.db
 
 # Sensitive information (example)
 *.env
+# Removed the config
+.vsconfig
