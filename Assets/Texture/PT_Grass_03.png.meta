@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f2a86d9c4950f4c4e81271677d2e2624
+guid: 44ec7a3e14f0b854d8926cad83222db5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -143,5 +143,5 @@ AssetOrigin:
   productId: 187052
   packageName: Lowpoly Environment - Nature Free - MEDIEVAL FANTASY SERIES
   packageVersion: 1.1.1
-  assetPath: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Grass_02.png
+  assetPath: Assets/Texture/PT_Grass_03.png
   uploadId: 721141

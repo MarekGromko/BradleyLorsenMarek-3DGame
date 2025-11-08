@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 4d7ad2aaddf58dc4e8dc116239a8d744
+guid: d8b9a114dc91e7d4e9885d54ca9d957f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -49,10 +49,10 @@ TextureImporter:
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
-  alphaIsTransparency: 1
+  alphaIsTransparency: 0
   spriteTessellationDetail: -1
   textureType: 0
-  textureShape: 1
+  textureShape: 2
   singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
@@ -143,5 +143,5 @@ AssetOrigin:
   productId: 187052
   packageName: Lowpoly Environment - Nature Free - MEDIEVAL FANTASY SERIES
   packageVersion: 1.1.1
-  assetPath: Assets/Polytope Studio/Lowpoly_Environments/Sources/Textures/PT_Grass_High_03.png
+  assetPath: Assets/Texture/PT_Skybox_Texture_01.png
   uploadId: 721141
