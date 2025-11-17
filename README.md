@@ -9,9 +9,11 @@
 - ✅ Définir les mécaniques communes aux deux niveaux.
 - ✅ Rédiger un document de conception (synopsis, plan des niveaux, répartition des rôles).
 
-### 🌱 Semaine 12 – Physique, déplacements et collisions
-- Intégrer un joueur contrôlable (déplacements sur 3 axes).
-- Appliquer des composants Rigidbody, Collider, gravité.
-- Tester les collisions avec décor, plateformes et objets mobiles.
-- Configurer la physique (friction, rebond, masse, vitesse).
-- Expérimenter rotations et forces physiques.
+### ✅ Semaine 12 – Physique, déplacements et collisions
+- ✅ Intégrer un joueur contrôlable (déplacements sur 3 axes).
+- ✅ Appliquer des composants Rigidbody, Collider, gravité.
+- ✅ Tester les collisions avec décor, plateformes et objets mobiles.
+- ✅ Configurer la physique (friction, rebond, masse, vitesse).
+- ✅ Expérimenter rotations et forces physiques.
+
+### 🌱 Semaine 13 – Gameplay et transition entre niveaux
