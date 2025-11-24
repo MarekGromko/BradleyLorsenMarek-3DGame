@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1441305173051218832}
   - component: {fileID: 7710640335976723449}
   - component: {fileID: 4041922254470474863}
+  - component: {fileID: 4142006947486984939}
   - component: {fileID: 8283933040365730391}
   - component: {fileID: 4771958448908629154}
   m_Layer: 0
@@ -128,8 +129,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   lookMotionSensitivity: 0.1
-  walkingSpeed: 1
+  backwardSlowFactor: 0.5
+  walkingSpeed: 6
+  sprintSpeed: 12
+  jumpStrenght: 6
   mainCamera: {fileID: 5888142912446713862}
+--- !u!114 &4142006947486984939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185326013402060566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7df9cf5eac9d848938d70fbca9c4daf5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteractFinder
+  mainCamera: {fileID: 8965860111591297839}
+  maxInteractableDistance: 10
 --- !u!136 &8283933040365730391
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -149,10 +167,10 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1
+  m_Radius: 0.8
   m_Height: 4
   m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Center: {x: 0, y: -1.5, z: 0}
 --- !u!54 &4771958448908629154
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -162,7 +180,7 @@ Rigidbody:
   m_GameObject: {fileID: 185326013402060566}
   serializedVersion: 5
   m_Mass: 1
-  m_LinearDamping: 0
+  m_LinearDamping: 0.05
   m_AngularDamping: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -208,13 +226,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5888142912446713862}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: -0.31813204, z: 0, w: 0.9480465}
+  m_LocalPosition: {x: -8.6, y: 0, z: -1.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4041727347595000520}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -37.1, z: 0}
 --- !u!20 &8965860111591297839
 Camera:
   m_ObjectHideFlags: 0
