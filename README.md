@@ -9,9 +9,17 @@
 - ✅ Définir les mécaniques communes aux deux niveaux.
 - ✅ Rédiger un document de conception (synopsis, plan des niveaux, répartition des rôles).
 
-### 🌱 Semaine 12 – Physique, déplacements et collisions
-- Intégrer un joueur contrôlable (déplacements sur 3 axes).
-- Appliquer des composants Rigidbody, Collider, gravité.
-- Tester les collisions avec décor, plateformes et objets mobiles.
-- Configurer la physique (friction, rebond, masse, vitesse).
-- Expérimenter rotations et forces physiques.
+### ✅ Semaine 12 – Physique, déplacements et collisions
+- ✅ Intégrer un joueur contrôlable (déplacements sur 3 axes).
+- ✅ Appliquer des composants Rigidbody, Collider, gravité.
+- ✅ Tester les collisions avec décor, plateformes et objets mobiles.
+- ✅ Configurer la physique (friction, rebond, masse, vitesse).
+- ✅ Expérimenter rotations et forces physiques.
+
+### 🌱 Semaine 13 – Gameplay et transition entre niveaux
+- Définir un objectif clair pour chaque niveau (collecte, activation, exploration).
+- Concevoir deux niveaux de même ampleur et complexité :
+    - chacun avec objectif, interaction et défi,
+    - durées et densités de jeu équilibrées (écart ≤ 20 %).
+- Implémenter une transition fluide (portail, porte, zone lumineuse).
+- Ajouter une caméra dynamique et une UI de base (compteur, barre, message d’objectif).
