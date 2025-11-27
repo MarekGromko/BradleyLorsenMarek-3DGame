@@ -24,7 +24,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Gradient:
-        m_Texture: {fileID: 2800000, guid: 5128f5f943407406d8de3735fcb0f724, type: 3}
+        m_Texture: {fileID: 2800000, guid: cac998bdae14741e2a39f44b6140c0c0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
@@ -41,7 +41,7 @@ Material:
     - _StencilWriteMask: 255
     - _UIMaskSoftnessX: 1
     - _UIMaskSoftnessY: 1
-    - _level: -0.12
+    - _level: 0
     m_Colors:
     - _ClipRect: {r: 0, g: 0, b: 0, a: 0}
     - _OutColor: {r: 1, g: 0.37814647, b: 0, a: 1}
