@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 1441305173051218832}
   - component: {fileID: 7710640335976723449}
   - component: {fileID: 4041922254470474863}
-  - component: {fileID: 4142006947486984939}
   - component: {fileID: 8283933040365730391}
   - component: {fileID: 4771958448908629154}
   m_Layer: 0
@@ -134,20 +133,6 @@ MonoBehaviour:
   sprintSpeed: 12
   jumpStrenght: 6
   mainCamera: {fileID: 5888142912446713862}
---- !u!114 &4142006947486984939
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 185326013402060566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7df9cf5eac9d848938d70fbca9c4daf5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteractFinder
-  mainCamera: {fileID: 8965860111591297839}
-  maxInteractableDistance: 10
 --- !u!136 &8283933040365730391
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -266,7 +251,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 78
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
