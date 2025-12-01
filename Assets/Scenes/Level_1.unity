@@ -297,17 +297,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 8438134}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &477175437 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4005014097490448228, guid: d17d9b64e1bc84917b9128dce74c6024, type: 3}
-  m_PrefabInstance: {fileID: 8891379743378389205}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6446253c819244a8f95268a58de37821, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractTarget
 --- !u!1 &542246868
 GameObject:
   m_ObjectHideFlags: 0
@@ -1726,38 +1715,6 @@ Camera:
   m_CorrespondingSourceObject: {fileID: 8965860111591297839, guid: e78cb7569e9bc4aa59d5654c5c10bee4, type: 3}
   m_PrefabInstance: {fileID: 3998768452051231339}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1856148137 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 6712583902395334584, guid: d17d9b64e1bc84917b9128dce74c6024, type: 3}
-  m_PrefabInstance: {fileID: 8891379743378389205}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6446253c819244a8f95268a58de37821, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::InteractTarget
---- !u!1 &2118454791 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3508359003635761436, guid: d17d9b64e1bc84917b9128dce74c6024, type: 3}
-  m_PrefabInstance: {fileID: 8891379743378389205}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2118454795
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2118454791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e13cf5e234ce461789e868a50de7684, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::StairClimbing
-  stairTop: {fileID: 477175437}
-  topOffset: {x: 0, y: 0, z: 0}
-  stairBottom: {fileID: 1856148137}
-  bottomOffset: {x: 0, y: 0, z: 0}
 --- !u!1001 &3998768452051231339
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1867,14 +1824,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WatchTower
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3981994560689291158, guid: d17d9b64e1bc84917b9128dce74c6024, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3508359003635761436, guid: d17d9b64e1bc84917b9128dce74c6024, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2118454795}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d17d9b64e1bc84917b9128dce74c6024, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

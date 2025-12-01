@@ -157,8 +157,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractTarget
   _override:
-    hoverMaterial: {fileID: 0}
     renderer: {fileID: 4731117378594992631}
+    hoverMaterial: {fileID: 0}
 --- !u!1 &3508359003635761436
 GameObject:
   m_ObjectHideFlags: 0
@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 4038733365851512260}
   - component: {fileID: 3867516368869001004}
   - component: {fileID: 4731117378594992631}
-  - component: {fileID: 3981994560689291158}
+  - component: {fileID: 8322188309885744544}
   m_Layer: 0
   m_Name: watchTowerStair
   m_TagString: Untagged
@@ -251,7 +251,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &3981994560689291158
+--- !u!114 &8322188309885744544
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -260,9 +260,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 3508359003635761436}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f24673ca04d542e983a5092ae80a5b7, type: 3}
+  m_Script: {fileID: 11500000, guid: 8e13cf5e234ce461789e868a50de7684, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::OutlineToggle
+  m_EditorClassIdentifier: Assembly-CSharp::StairClimbing
+  stairTop: {fileID: 4005014097490448228}
+  topOffset: {x: 0, y: 2.5, z: 0}
+  stairBottom: {fileID: 6712583902395334584}
+  bottomOffset: {x: 0, y: 0, z: 0}
 --- !u!1 &6515944388651441284
 GameObject:
   m_ObjectHideFlags: 0
@@ -439,5 +443,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractTarget
   _override:
-    hoverMaterial: {fileID: 0}
     renderer: {fileID: 4731117378594992631}
+    hoverMaterial: {fileID: 0}
