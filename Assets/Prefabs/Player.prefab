@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4041727347595000520}
   - component: {fileID: 1441305173051218832}
-  - component: {fileID: 7710640335976723449}
   - component: {fileID: 4041922254470474863}
   - component: {fileID: 8283933040365730391}
   - component: {fileID: 4771958448908629154}
+  - component: {fileID: 2004157394397090550}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -103,18 +103,6 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
---- !u!114 &7710640335976723449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 185326013402060566}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a083fa58c30c4acfb796eb24b8d2aec, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
 --- !u!114 &4041922254470474863
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,6 +171,25 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &2004157394397090550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185326013402060566}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ecb3799fcbbe4b70b34f7d91c747ab2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthState
+  _maxHealth: 50
+  OnHealthChange:
+    m_PersistentCalls:
+      m_Calls: []
+  OnDeath:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &5888142912446713862
 GameObject:
   m_ObjectHideFlags: 0

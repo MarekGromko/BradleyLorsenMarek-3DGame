@@ -11,15 +11,15 @@ public class StairClimbing : MonoBehaviour
     void Awake()
     {
         _player = GameObject.FindGameObjectWithTag("Player");
-        stairBottom.OnActive += GoStairTop;
-        stairTop.OnActive    += GoStairBottom;
+        stairBottom.OnActive.AddListener(GoStairTop);
+        stairTop.OnActive.AddListener(GoStairBottom);
     }
 
-    void GoStairTop()
+    void GoStairTop(InteractTarget _)
     {
         _player.transform.position = stairTop.transform.position + topOffset;
     }
-    void GoStairBottom()
+    void GoStairBottom(InteractTarget _)
     {
         _player.transform.position = stairBottom.transform.position + bottomOffset;
     }

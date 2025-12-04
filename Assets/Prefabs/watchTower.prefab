@@ -156,9 +156,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6446253c819244a8f95268a58de37821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractTarget
-  _override:
-    renderer: {fileID: 4731117378594992631}
-    hoverMaterial: {fileID: 0}
+  _renderer: {fileID: 4731117378594992631}
+  _hoverMaterial: {fileID: 0}
+  OnActive:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &3508359003635761436
 GameObject:
   m_ObjectHideFlags: 0
@@ -442,6 +444,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6446253c819244a8f95268a58de37821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::InteractTarget
-  _override:
-    renderer: {fileID: 4731117378594992631}
-    hoverMaterial: {fileID: 0}
+  _renderer: {fileID: 4731117378594992631}
+  _hoverMaterial: {fileID: 0}
+  OnActive:
+    m_PersistentCalls:
+      m_Calls: []
